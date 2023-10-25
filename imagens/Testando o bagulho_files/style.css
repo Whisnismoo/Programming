@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Android7' ;
+  src: url('android_7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('BebasNeue-Regular') format('truetype');
+  font-weight: normal;
+  font-size: normal;
+}
+
+/*
+#c5ebd5
+#83e1ad
+#3ddc84
+#1a5c37
+#2fa866
+#063d1e
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+background-color: #CCEA8D;
+}
+
+
+
+header {
+background-image: linear-gradient(to top, #063d1e, #1a5c37, #2fa866);
+  min-height: 120px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+header > h1{
+ color: white;
+ font-family: 'Bebas', Times, serif;
+ text-align: center;
+ font-size: 3em;
+ text-shadow:2px 2px 0px rgba(0, 0, 0, 0.514);
+}
+
+header > p {
+  font-family: 'Bebas', Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+nav {
+  background-color: #063d1e ;
+  padding: 10px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.233);
+}
+
+nav > a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+nav > a:hover {
+  background-color: #83e1ad;
+  color: black;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+
+main h1 {
+  font-family: 'Android7', Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: #063d1e;
+}
+
+main h2 {
+  font-family: 'Android7', 'Arial Narrow', Arial, sans-serif;
+  background-image: linear-gradient(to right, #3ddc8583, transparent);
+}
+
+main p {
+  margin: 15px 0px 15px 0px;
+  text-indent: 30px;
+  text-align: justify;
+  line-height: 2em;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main strong {
+  background-color: #83e1ad;
+  font-weight: bold; 
+  color: #003317;
+}
+
+main a {
+  font-weight: bold;
+}
+
+main a:hover {
+  color: blue;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  min-width: 270px;
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  background-color: black;
+  min-width: 270px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+footer > p {
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
